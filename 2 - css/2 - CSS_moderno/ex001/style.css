@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
+.rock{
+  width: 40px;
+}
+.one{
+  width: 200px;
+}
+.button{
+  display: flex;
+  gap: 10px;
+}
+.buttonHeader{
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+}
+.buttonHeader:hover{
+  border-color: #ff0044;
+}
+
+
+/*
+.container{
+  background-color: darkgray;
+  min-height: 100vh;
+  display: flex;
+  gap: 0px 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.item{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
